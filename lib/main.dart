@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/sign_in.dart';
 import 'home.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Mitan'),
+      home: SignIn(),
     );
   }
 }

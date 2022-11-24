@@ -64,6 +64,7 @@ flutter:
     - assets/mitan.png
     - assets/corporater.png
     - assets/farmer.png
+    - assets/Background.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
