@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mitan/sign_in.dart';
 import 'home.dart';
-import 'otp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primarySwatch: Colors.blue,
       ),
-      home: otp(),
+      home: SignIn(),
     );
   }
 }

@@ -70,6 +70,21 @@ class SignIn extends StatelessWidget {
                               fontSize: 18,
                               fontWeight: FontWeight.bold),
                         ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Container(
+                          child: Center(
+                            child: Text(
+                              'GENERATE OTP',
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 20),
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                          decoration: BoxDecoration(color: Colors.black),
+                          height: 50,
+                        )
                       ]),
                     )
                   ],
