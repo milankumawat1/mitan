@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/catalog.dart';
+import 'package:mitan/pin_code.dart';
 import 'package:mitan/sign_in.dart';
 import 'home.dart';
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
         primarySwatch: Colors.blue,
       ),
-      home: SignIn(),
+      home: catalog(),
     );
   }
 }
