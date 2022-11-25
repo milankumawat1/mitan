@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/catalog.dart';
 
 class Shop extends StatelessWidget {
   const Shop({Key? key}) : super(key: key);
@@ -145,7 +146,10 @@ class Shop extends StatelessWidget {
             Row(
               children: [
                 Spacer(),
-                Image(image: AssetImage('assets/Catalog/shop/best.png')),
+                InkWell(
+                    // onTap: () => shopcall,
+                    child: Image(
+                        image: AssetImage('assets/Catalog/shop/best.png'))),
                 Spacer(),
                 Image(image: AssetImage('assets/Catalog/shop/best.png')),
                 Spacer(),

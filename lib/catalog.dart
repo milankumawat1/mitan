@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // import 'btmNavBar.dart';
 import 'catalog/blog.dart';
+import 'catalog/details/d1.dart';
 import 'catalog/home.dart';
 import 'catalog/shop.dart';
 import 'catalog/weather.dart';
@@ -85,8 +86,14 @@ class _Catalog extends State<Catalog> {
     const Shop(),
     const Weather(),
     const Blogs(),
+    const D1(),
   ];
 
+// void shopcall(){
+//   setState(() {
+//               pageIndex = 4;
+//             });
+// }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
