@@ -197,7 +197,7 @@ class pincode extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => const catalog()),
+                                    builder: (context) => const Catalog()),
                               );
                             },
                             child: InkWell(
@@ -205,7 +205,7 @@ class pincode extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const catalog()),
+                                      builder: (context) => const Catalog()),
                                 );
                               },
                               child: Container(
@@ -231,7 +231,7 @@ class pincode extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const catalog()),
+                                      builder: (context) => const Catalog()),
                                 );
                               },
                               child: Text(
