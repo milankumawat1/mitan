@@ -79,6 +79,17 @@ flutter:
     - assets/drawer/i7.png
     - assets/drawer/i8.png
     - assets/drawer/i9.png
+    - assets/discountBanner.png
+    - assets/Catalog/Scroll/c1.png
+    - assets/Catalog/Scroll/c2.png
+    - assets/Catalog/Scroll/c3.png
+    - assets/Catalog/Scroll/1.png
+    - assets/Catalog/Scroll/2.png
+    - assets/Catalog/Scroll/3.png
+    - assets/Catalog/Scroll/4.png
+    - assets/Catalog/Scroll/n1.png
+    - assets/Catalog/banner.png
+    - assets/bottomnavbar/1.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
