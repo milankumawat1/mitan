@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/catalog.dart';
 
 class pincode extends StatelessWidget {
   const pincode({super.key});
@@ -159,17 +160,35 @@ class pincode extends StatelessWidget {
                         SizedBox(
                           height: 30,
                         ),
-                        Container(
-                          child: Center(
-                            child: Text(
-                              'SAVE',
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
-                              textAlign: TextAlign.center,
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const catalog()),
+                            );
+                          },
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const catalog()),
+                              );
+                            },
+                            child: Container(
+                              child: Center(
+                                child: Text(
+                                  'SAVE',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 20),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                              decoration: BoxDecoration(color: Colors.black),
+                              height: 50,
                             ),
                           ),
-                          decoration: BoxDecoration(color: Colors.black),
-                          height: 50,
                         ),
                         SizedBox(
                           height: 10,

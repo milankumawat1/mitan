@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/otp.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({super.key});
@@ -46,7 +47,12 @@ class SignIn extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        TextField(
+                        TextFormField(
+                          validator: (value) {
+                            if (value == null || value.isEmpty) {
+                              return 'Please enter some text';
+                            }
+                          },
                           decoration: InputDecoration(
                               fillColor: Color.fromRGBO(49, 129, 98, 100),
                               filled: true,
@@ -73,17 +79,26 @@ class SignIn extends StatelessWidget {
                         SizedBox(
                           height: 20,
                         ),
-                        Container(
-                          child: Center(
-                            child: Text(
-                              'GENERATE OTP',
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
-                              textAlign: TextAlign.center,
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const otp()),
+                            );
+                          },
+                          child: Container(
+                            child: Center(
+                              child: Text(
+                                'GENERATE OTP',
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 20),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
+                            decoration: BoxDecoration(color: Colors.black),
+                            height: 50,
                           ),
-                          decoration: BoxDecoration(color: Colors.black),
-                          height: 50,
                         )
                       ]),
                     )

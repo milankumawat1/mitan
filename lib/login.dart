@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/sign_in.dart';
 
 class login extends StatelessWidget {
   const login({super.key});
@@ -22,7 +23,7 @@ class Login extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset('assets/logo.jpg'),
+          Image.asset('assets/logo.png'),
           Text(
             'Choose Account Type',
             style: TextStyle(fontSize: 32),
@@ -44,16 +45,24 @@ class Login extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Container(
-            height: 50,
-            width: 280,
-            alignment: Alignment.center,
-            child: Text(
-              'CONTINUE',
-              style: TextStyle(color: Colors.white),
-            ),
-            decoration: new BoxDecoration(
-              color: Colors.black,
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const SignIn()),
+              );
+            },
+            child: Container(
+              height: 50,
+              width: 280,
+              alignment: Alignment.center,
+              child: Text(
+                'CONTINUE',
+                style: TextStyle(color: Colors.white),
+              ),
+              decoration: new BoxDecoration(
+                color: Colors.black,
+              ),
             ),
           ),
           SizedBox(

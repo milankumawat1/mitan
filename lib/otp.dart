@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/pin_code.dart';
 
 class otp extends StatelessWidget {
   const otp({super.key});
@@ -131,17 +132,26 @@ class otp extends StatelessWidget {
                         SizedBox(
                           height: 20,
                         ),
-                        Container(
-                          child: Center(
-                            child: Text(
-                              'LOGIN',
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 20),
-                              textAlign: TextAlign.center,
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const pincode()),
+                            );
+                          },
+                          child: Container(
+                            child: Center(
+                              child: Text(
+                                'LOGIN',
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 20),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
+                            decoration: BoxDecoration(color: Colors.black),
+                            height: 50,
                           ),
-                          decoration: BoxDecoration(color: Colors.black),
-                          height: 50,
                         )
                       ]),
                     )

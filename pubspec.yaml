@@ -60,7 +60,7 @@ flutter:
   uses-material-design: true
 
   assets:  
-    - assets/logo.jpg
+    - assets/logo.png
     - assets/mitan.png
     - assets/corporater.png
     - assets/farmer.png
