@@ -6,12 +6,12 @@ class Blogs extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color(0xffC4DFCB),
+      color: Color.fromARGB(255, 255, 255, 255),
       child: Center(
         child: Text(
-          "Page Number 4",
+          "",
           style: TextStyle(
-            color: Colors.green[900],
+            color: Colors.white,
             fontSize: 45,
             fontWeight: FontWeight.w500,
           ),

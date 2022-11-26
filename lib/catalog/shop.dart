@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mitan/catalog.dart';
+import 'package:mitan/catalog/details/d1.dart';
+import 'package:mitan/catalog/details/d2.dart';
 
 class Shop extends StatelessWidget {
   const Shop({Key? key}) : super(key: key);
@@ -147,13 +149,36 @@ class Shop extends StatelessWidget {
               children: [
                 Spacer(),
                 InkWell(
-                    // onTap: () => shopcall,
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const D1()),
+                      );
+                    },
                     child: Image(
                         image: AssetImage('assets/Catalog/shop/best.png'))),
                 Spacer(),
-                Image(image: AssetImage('assets/Catalog/shop/best.png')),
+                InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const D1()),
+                      );
+                    },
+                    child: Image(
+                        image: AssetImage('assets/Catalog/shop/best.png'))),
+                // Image(image: AssetImage('assets/Catalog/shop/best.png')),
                 Spacer(),
-                Image(image: AssetImage('assets/Catalog/shop/best.png')),
+                InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const D2()),
+                      );
+                    },
+                    child: Image(
+                        image: AssetImage('assets/Catalog/shop/best.png'))),
+                // Image(image: AssetImage('assets/Catalog/shop/best.png')),
                 Spacer(),
               ],
             ),

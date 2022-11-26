@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../drawer.dart';
 
-class D1 extends StatelessWidget {
-  const D1({super.key});
+class D2 extends StatelessWidget {
+  const D2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -56,37 +56,64 @@ class D1 extends StatelessWidget {
                     // color: Colors.orange,
                     child: Column(
                       children: [
+                        Row(
+                          children: [
+                            SizedBox(
+                              width: 40,
+                            ),
+                            Container(
+                              decoration:
+                                  BoxDecoration(color: Colors.greenAccent),
+                              child: Text(
+                                'DANGER',
+                                style: TextStyle(
+                                    color: Color.fromARGB(255, 1, 103, 5)),
+                              ),
+                            ),
+                            Spacer(),
+                            Container(
+                              decoration:
+                                  BoxDecoration(color: Colors.greenAccent),
+                              child: Text(
+                                'DECORATION',
+                                style: TextStyle(
+                                    color: Color.fromARGB(255, 1, 103, 5)),
+                              ),
+                            ),
+                            Spacer(),
+                          ],
+                        ),
                         Spacer(),
                         Row(
                           children: [
                             Text(
-                              'Soya bean(Organic)',
+                              'Tradescanti',
                               style: TextStyle(
                                   fontWeight: FontWeight.w500, fontSize: 25),
                             ),
                             Spacer(),
-                            Text(
-                              '₹90/Kg',
-                              style: TextStyle(
-                                  fontSize: 25,
-                                  color: Color.fromARGB(255, 29, 235, 35)),
-                            )
+                            // Text(
+                            //   '₹90/Kg',
+                            //   style: TextStyle(
+                            //       fontSize: 25,
+                            //       color: Color.fromARGB(255, 29, 235, 35)),
+                            // )
                           ],
                         ),
+                        // Spacer(),
+                        // Row(
+                        //   children: [
+                        //     Image.asset('assets/Catalog/shop/star.png'),
+                        //     Spacer(),
+                        //   ],
+                        // ),
                         Spacer(),
                         Row(
                           children: [
-                            Image.asset('assets/Catalog/shop/star.png'),
-                            Spacer(),
-                          ],
-                        ),
-                        Spacer(),
-                        Row(
-                          children: [
                             Text(
-                              'Starting from 80 kg',
+                              'KINGDOM      FAMILY',
                               style: TextStyle(
-                                  fontSize: 18, fontWeight: FontWeight.w400),
+                                  fontSize: 18, fontWeight: FontWeight.w800),
                             ),
                             Spacer(),
                           ],
@@ -95,7 +122,7 @@ class D1 extends StatelessWidget {
                         Row(
                           children: [
                             Text(
-                              'Prouction ready time: 45 to 65 days',
+                              'Plantae          Cactaceae',
                               style: TextStyle(
                                   fontSize: 18, fontWeight: FontWeight.w400),
                             ),
