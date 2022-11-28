@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../drawer.dart';
+import '../cart.dart';
 
 class D1 extends StatelessWidget {
   const D1({super.key});
@@ -25,7 +26,20 @@ class D1 extends StatelessWidget {
           alignment: Alignment.center,
           child: Image.asset('assets/appbar_title.png'),
         ),
-        actions: [Image.asset('assets/cart.png')],
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.shopping_cart),
+            tooltip: 'Open shopping cart',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const cart()),
+              );
+              // handle the press
+            },
+          ),
+        ],
+        // actions: [Image.asset('assets/scart.png')],
       ),
       drawer: drawerOne(),
       body: Container(

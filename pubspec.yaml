@@ -64,10 +64,13 @@ flutter:
     - assets/drawer/
     - assets/Catalog/Scroll/
     - assets/Catalog/
+    - assets/Catalog/cart.png
     - assets/Catalog/shop/
     - assets/Catalog/weather/
     - assets/bottomnavbar/
     - assets/mitan.png
+    - assets/scart.png
+    - assets/corporater.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

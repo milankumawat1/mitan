@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // import 'btmNavBar.dart';
 import 'catalog/blog.dart';
+import 'catalog/cart.dart';
 import 'catalog/details/d1.dart';
 import 'catalog/home.dart';
 import 'catalog/shop.dart';
@@ -115,7 +116,19 @@ class _Catalog extends State<Catalog> {
           alignment: Alignment.center,
           child: Image.asset('assets/appbar_title.png'),
         ),
-        actions: [Image.asset('assets/cart.png')],
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.shopping_cart),
+            tooltip: 'Open shopping cart',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const cart()),
+              );
+              // handle the press
+            },
+          ),
+        ],
       ),
       drawer: drawerOne(),
       body: pages[pageIndex],
