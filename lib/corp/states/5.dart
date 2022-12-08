@@ -7,8 +7,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 // final Uri _url = Uri.parse('https://flutter.dev');
 
-class s1 extends StatelessWidget {
-  const s1({super.key});
+class s5 extends StatelessWidget {
+  const s5({super.key});
 
   Future<void> _launchURL(String url) async {
     final Uri uri = Uri(scheme: "https", host: url);
@@ -76,7 +76,7 @@ class s1 extends StatelessWidget {
                       _launchURL("http://flutter.dev");
                     },
                     child: Text(
-                      "Unicrop Bioscience, Jaipur",
+                      "Bawa Fertilizer Company",
                       style: TextStyle(fontSize: 22),
                     ),
                   ),
@@ -100,7 +100,7 @@ class s1 extends StatelessWidget {
                       _launchURL("https://flutter.dev");
                     },
                     child: Text(
-                      "Udara Agro Product",
+                      "Royal Seeds & Fertilizers",
                       style: TextStyle(fontSize: 22),
                     ),
                   ),
@@ -145,7 +145,7 @@ class s1 extends StatelessWidget {
                       _launchURL("https://flutter.dev");
                     },
                     child: Text(
-                      "UMaang livestock pvt. ltd.",
+                      "Gujarat Fertilizers Company",
                       style: TextStyle(fontSize: 22),
                     ),
                   ),
@@ -176,27 +176,27 @@ class s1 extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Center(
-              child: Container(
-                decoration: BoxDecoration(
-                    // borderRadius: BorderRadius.circular(),
-                    // border: Border.all()
-                    ),
-                width: MediaQuery.of(context).size.width * 0.9,
-                height: 40,
-                child: Center(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      _launchURL("https://flutter.dev");
-                    },
-                    child: Text(
-                      "Bonzai Agro Food",
-                      style: TextStyle(fontSize: 22),
-                    ),
-                  ),
-                ),
-              ),
-            ),
+            // Center(
+            //   child: Container(
+            //     decoration: BoxDecoration(
+            //         // borderRadius: BorderRadius.circular(),
+            //         // border: Border.all()
+            //         ),
+            //     width: MediaQuery.of(context).size.width * 0.9,
+            //     height: 40,
+            //     child: Center(
+            //       child: ElevatedButton(
+            //         onPressed: () {
+            //           _launchURL("https://flutter.dev");
+            //         },
+            //         child: Text(
+            //           "Bonzai Agro Food",
+            //           style: TextStyle(fontSize: 22),
+            //         ),
+            //       ),
+            //     ),
+            //   ),
+            // ),
             // InkWell(
             //   onTap: () {
             //     Navigator.push(

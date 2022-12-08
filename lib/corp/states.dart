@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:mitan/corp/blank.dart';
 import 'package:mitan/corp/states/1.dart';
+import 'package:mitan/corp/states/2.dart';
+import 'package:mitan/corp/states/3.dart';
+import 'package:mitan/corp/states/4.dart';
+import 'package:mitan/corp/states/5.dart';
+
+import '../drawer.dart';
 
 class states extends StatelessWidget {
   const states({super.key});
@@ -38,6 +45,7 @@ class states extends StatelessWidget {
         //   ),
         // ],
       ),
+      drawer: drawerOne(),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(children: [
@@ -56,7 +64,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -80,7 +88,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => s3()),
               );
             },
             child: Container(
@@ -104,7 +112,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -128,7 +136,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -152,7 +160,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -176,7 +184,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -200,7 +208,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -224,7 +232,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -248,7 +256,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -272,7 +280,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -296,7 +304,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -320,7 +328,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => s2()),
               );
             },
             child: Container(
@@ -344,7 +352,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -368,7 +376,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -392,7 +400,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -416,7 +424,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -440,7 +448,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -464,7 +472,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -488,7 +496,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -512,7 +520,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -536,7 +544,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -584,7 +592,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -608,7 +616,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => s4()),
               );
             },
             child: Container(
@@ -632,7 +640,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => s5()),
               );
             },
             child: Container(
@@ -656,7 +664,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -680,7 +688,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -704,7 +712,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -728,7 +736,7 @@ class states extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => s1()),
+                MaterialPageRoute(builder: (context) => blank()),
               );
             },
             child: Container(
@@ -748,539 +756,6 @@ class states extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {
-          //         Navigator.push(
-          //           context,
-          //           MaterialPageRoute(builder: (context) => s1()),
-          //         );
-          //       },
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.7,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Andhra Pradesh",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     // InkWell(
-          //     //   onTap: () {},
-          //     //   child: Container(
-          //     //     decoration: BoxDecoration(
-          //     //         // borderRadius: BorderRadius.circular(),
-          //     //         border: Border.all()),
-          //     //     width: MediaQuery.of(context).size.width * 0.26,
-          //     //     height: 40,
-          //     //     child: Center(
-          //     //       child: Text(
-          //     //         "Rajasthan",
-          //     //         style: TextStyle(fontSize: 22),
-          //     //       ),
-          //     //     ),
-          //     //   ),
-          //     // ),
-          //     // Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.7,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Arunachal Pradesh",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // SizedBox(height: 20),
-          // Row(
-          //   children: [
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //     InkWell(
-          //       onTap: () {},
-          //       child: Container(
-          //         decoration: BoxDecoration(
-          //             // borderRadius: BorderRadius.circular(),
-          //             border: Border.all()),
-          //         width: MediaQuery.of(context).size.width * 0.26,
-          //         height: 40,
-          //         child: Center(
-          //           child: Text(
-          //             "Rajasthan",
-          //             style: TextStyle(fontSize: 22),
-          //           ),
-          //         ),
-          //       ),
-          //     ),
-          //     Spacer(),
-          //   ],
-          // ),
-          // TextButton(
-          //   onPressed: () {},
-          //   style: ButtonStyle(
-          //     foregroundColor: MaterialStateProperty.resolveWith<Color>(
-          //         (Set<MaterialState> states) {
-          //       if (states.contains(MaterialState.hovered)) return Colors.yellow;
-          //       return Colors.blue;
-          //     }),
-          //   ),
-          //   child: const Text(
-          //     'Text Button ',
-          //     style: TextStyle(fontSize: 24),
-          //   ),
-          // )
         ]),
       ),
     );
