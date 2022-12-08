@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mitan/sign_in.dart';
+import 'package:mitan/signin_corp.dart';
 
 class login extends StatelessWidget {
   const login({super.key});
@@ -35,36 +36,52 @@ class Login extends StatelessWidget {
             // crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/corporater.png'),
+              InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SignInCorp()),
+                    );
+                  },
+                  child: Image.asset('assets/corporater.png')),
+
+              // Image.asset('assets/corporater.png'),
               SizedBox(
                 width: 40,
               ),
-              Image.asset('assets/farmer.png')
+              InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => SignIn()),
+                    );
+                  },
+                  child: Image.asset('assets/farmer.png'))
             ],
           ),
           SizedBox(
             height: 20,
           ),
-          InkWell(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => SignIn()),
-              );
-            },
-            child: Container(
-              height: 50,
-              width: 280,
-              alignment: Alignment.center,
-              child: Text(
-                'CONTINUE',
-                style: TextStyle(color: Colors.white),
-              ),
-              decoration: new BoxDecoration(
-                color: Colors.black,
-              ),
-            ),
-          ),
+          // InkWell(
+          //   onTap: () {
+          //     Navigator.push(
+          //       context,
+          //       MaterialPageRoute(builder: (context) => SignIn()),
+          //     );
+          //   },
+          //   child: Container(
+          //     height: 50,
+          //     width: 280,
+          //     alignment: Alignment.center,
+          //     child: Text(
+          //       'CONTINUE',
+          //       style: TextStyle(color: Colors.white),
+          //     ),
+          //     decoration: new BoxDecoration(
+          //       color: Colors.black,
+          //     ),
+          //   ),
+          // ),
           SizedBox(
             height: 20,
           ),
