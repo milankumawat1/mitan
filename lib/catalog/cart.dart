@@ -144,7 +144,7 @@ class CartBody extends StatelessWidget {
                                 color: Colors.white),
                           ),
                           Text(
-                            '\$100',
+                            'Rs 399',
                             textAlign: TextAlign.left,
                             style: TextStyle(
                                 fontWeight: FontWeight.w500,

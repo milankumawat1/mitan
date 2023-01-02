@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mitan/pin_code.dart';
+
 import 'package:mitan/pincodecorp.dart';
 
 class otpcorp extends StatelessWidget {

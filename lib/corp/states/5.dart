@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:mitan/drawer.dart';
 
@@ -145,7 +143,7 @@ class s5 extends StatelessWidget {
                       _launchURL("https://flutter.dev");
                     },
                     child: Text(
-                      "Gujarat Fertilizers Company",
+                      "Gujarat Fertilizers Company ",
                       style: TextStyle(fontSize: 22),
                     ),
                   ),

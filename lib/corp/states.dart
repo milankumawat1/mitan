@@ -54,7 +54,7 @@ class states extends StatelessWidget {
           ),
           Center(
               child: Text(
-            "random text",
+            "Select States",
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
           )),
           SizedBox(

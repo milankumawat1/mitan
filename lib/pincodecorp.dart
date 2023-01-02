@@ -232,7 +232,7 @@ class pincodecorp extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const Catalog()),
+                                      builder: (context) => const states()),
                                 );
                               },
                               child: Text(
